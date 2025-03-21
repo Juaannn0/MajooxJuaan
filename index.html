@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MajooXJuaan</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #fff7d6;
+            color: #444;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        .flower-animation {
+            position: relative;
+            height: 150px;
+        }
+        .flower {
+            width: 20px;
+            height: 20px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+            animation: float 4s infinite ease-in-out;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px); opacity: 1; }
+            50% { transform: translateY(-30px); opacity: 0.7; }
+            100% { transform: translateY(0px); opacity: 1; }
+        }
+        .btn {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            background-color: #ffd700;
+            color: #444;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #ffcc00;
+        }
+        .under {
+            margin-top:20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🌼 Para Majitoo 🌼</h1>
+        <p>.</p>
+        
+        <div class="flower-animation">
+            <div class="flower" style="left: 20%; animation-duration: 3s;"></div>
+            <div class="flower" style="left: 50%; animation-duration: 4s;"></div>
+            <div class="flower" style="left: 80%; animation-duration: 5s;"></div>
+        </div>
+
+        <div>PONER EL EDIT</div>
+
+        <p>Descarga los pdf's que hay abajo. 💛</p>
+        <div class="buttons">
+            <a href="letters.pdf" download class="btn">📜 Just for u</a>
+            <a href="50_things_I_love_about_you.pdf" download class="btn">💛 Cosas que amo sobre ti</a>
+        </div>
+
+        <div class="flower-animation, under">
+            <div class="flower" style="left: 20%; animation-duration: 3s;"></div>
+            <div class="flower" style="left: 50%; animation-duration: 4s;"></div>
+            <div class="flower" style="left: 80%; animation-duration: 5s;"></div>
+        </div>
+    </div>
+</body>
+</html>
